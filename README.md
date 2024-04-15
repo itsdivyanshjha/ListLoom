@@ -1,60 +1,42 @@
-# ListLoom
-Weave your tasks into productivity with ListLoom.
-# ListLoom: To-Do List Application
+# Spring Boot Todo Application: ListLoom
 
-ListLoom is a Java-based To-Do List application designed to help users manage their tasks efficiently. This application allows users to create, update, delete, and view tasks in a to-do list.
+![spring boot todo application](./screenshot.jpeg)
+
+Welcome to ListLoom, a comprehensive Todo Application built with Java Spring Boot. This application is designed to help you manage your tasks efficiently, providing a simple yet powerful interface for adding, updating, and deleting todo items.
 
 ## Features
 
-- **Add Task:** Users can add new tasks with a title and description.
-- **Mark Task as Completed:** Users can mark tasks as completed.
-- **Update Task Details:** Users can update the details of existing tasks.
-- **Delete Task:** Users can delete tasks from the list.
-- **View Tasks:** Users can view the list of all tasks.
+- **Todo Management**: Easily add, update, and delete todo items.
+- **Database Integration**: Uses Spring Data JPA for database operations, ensuring data persistence.
+- **Web Interface**: A user-friendly web interface for managing your todos.
+- **Testing Support**: Comes with a robust testing setup, including unit, integration, and web layer tests.
 
 ## Getting Started
 
-### Prerequisites
-
-- Java 8 or later
-- Maven 3.x
-- (Optional) Apache Tomcat for deployment
-
-### Installation
+To get started with ListLoom, follow these simple steps:
 
 1. Clone the repository:
-git clone https://github.com/wazooinc/spring-boot-todo-application.git
-2. Navigate to the project directory:
-cd spring-boot-todo-application
-3. Grant execute permissions to the Maven Wrapper script:
-chmod +x ./mvnw
-4. Build the project:
-./mvnw clean install
-5. Run the application:
-./mvnw spring-boot:run
 
+- `git clone repository-link`
+- `cd ListLoom`
+- open in favorite editor, or
+- `./mvnw clean install`
+- `./mvnw spring-boot:run`
+- open http://localhost:8080 and TODO away!
 
-### Usage
-
-Once the application is running, you can access it via a web browser at `http://localhost:8080`.
-
-## Deployment
-
-To deploy the application to a production environment using Apache Tomcat, follow these steps:
-
-1. Package the application as a WAR file:
-./mvnw clean package -Pprod
-
-2. Deploy the generated WAR file to your Tomcat server.
+This will run all unit, integration, and web layer tests, ensuring that the application behaves as expected.
 
 ## Contributing
 
-Contributions are welcome. Please feel free to submit pull requests or open issues for any improvements or bug fixes.
+We welcome contributions from the community! If you're interested in contributing to ListLoom, please follow these steps:
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and commit them to your branch.
+4. Open a pull request with a detailed description of your changes.
 
 ## Contact
 
-For any questions or support, please contact the project maintainers.
+If you have any questions or feedback, please feel free to reach out to us.
+
+Thank you for using ListLoom!

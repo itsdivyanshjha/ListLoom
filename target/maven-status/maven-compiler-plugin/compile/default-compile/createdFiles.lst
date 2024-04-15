@@ -1,0 +1,6 @@
+com/ListLoom/springboottodoapplication/repositories/TodoItemRepository.class
+com/ListLoom/springboottodoapplication/SpringBootTodoApplication.class
+com/ListLoom/springboottodoapplication/models/TodoItem.class
+com/ListLoom/springboottodoapplication/config/TodoItemDataLoader.class
+com/ListLoom/springboottodoapplication/controllers/TodoItemController.class
+com/ListLoom/springboottodoapplication/controllers/TodoFormController.class
